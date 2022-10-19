@@ -60,6 +60,9 @@ const (
 
 	// Wolfi is done
 	Wolfi = "wolfi"
+
+	// WRLinux is done
+	WRLinux = "wrlinux"
 )
 
 var AnalyzeOSError = xerrors.New("unable to analyze OS information")
