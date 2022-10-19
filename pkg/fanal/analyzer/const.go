@@ -20,6 +20,7 @@ const (
 	TypeRedHatBase Type = "redhat"
 	TypeSUSE       Type = "suse"
 	TypeUbuntu     Type = "ubuntu"
+	TypeWRLinux    Type = "wrlinux"
 
 	// OS Package
 	TypeApk         Type = "apk"
@@ -110,7 +111,7 @@ var (
 	// TypeOSes has all OS-related analyzers
 	TypeOSes = []Type{
 		TypeOSRelease, TypeAlpine, TypeAmazon, TypeCBLMariner, TypeDebian, TypePhoton, TypeCentOS,
-		TypeRocky, TypeAlma, TypeFedora, TypeOracle, TypeRedHatBase, TypeSUSE, TypeUbuntu,
+		TypeRocky, TypeAlma, TypeFedora, TypeOracle, TypeRedHatBase, TypeSUSE, TypeUbuntu, TypeWRLinux,
 		TypeApk, TypeDpkg, TypeDpkgLicense, TypeRpm, TypeRpmqa,
 		TypeApkRepo,
 	}
